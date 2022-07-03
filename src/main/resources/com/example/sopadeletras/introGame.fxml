@@ -4,14 +4,14 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1300.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.sopadeletras.controller.introController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1300.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.sopadeletras.controller.SceneController">
    <children>
       <Button layoutX="479.0" layoutY="314.0" mnemonicParsing="false" onAction="#showThemes" prefHeight="72.0" prefWidth="342.0" text="START" AnchorPane.bottomAnchor="314.0">
          <font>
             <Font name="Berlin Sans FB Demi Bold" size="33.0" />
          </font>
       </Button>
-      <Button layoutX="479.0" layoutY="461.0" mnemonicParsing="false" prefHeight="72.0" prefWidth="342.0" text="INFO">
+      <Button layoutX="479.0" layoutY="461.0" mnemonicParsing="false" onAction="#showInfo" prefHeight="72.0" prefWidth="342.0" text="INFO">
          <font>
             <Font name="Berlin Sans FB Demi Bold" size="33.0" />
          </font>

@@ -6,7 +6,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="700.0" prefWidth="1300.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.sopadeletras.controller.themesController">
+<AnchorPane prefHeight="700.0" prefWidth="1300.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.sopadeletras.controller.SceneController">
    <children>
       <Button contentDisplay="CENTER" layoutX="134.0" layoutY="123.0" mnemonicParsing="false" prefHeight="230.0" prefWidth="230.0" text="Fruits" textAlignment="JUSTIFY">
          <graphic>
@@ -22,6 +22,9 @@
             <Font name="Showcard Gothic" size="29.0" />
          </font>
       </TextArea>
-      <Button layoutX="563.0" layoutY="628.0" mnemonicParsing="false" onAction="#backIntro" prefHeight="49.0" prefWidth="174.0" text="BACK" />
+      <Button layoutX="563.0" layoutY="628.0" mnemonicParsing="false" onAction="#showIntro" prefHeight="49.0" prefWidth="174.0" text="BACK">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="27.0" />
+         </font></Button>
    </children>
 </AnchorPane>
