@@ -19,37 +19,11 @@ public class SceneController {
     private Stage stage;
     private Scene scene;
     private Parent root;
-    @FXML
-    private Label typeSoup;
-
-    @FXML
-    private Label p0;
-
-    @FXML
-    private Label p1;
-
-    @FXML
-    private Label p2;
-    @FXML
-    private Label p3;
-    @FXML
-    private Label p4;
-    @FXML
-    private Label p5;
-    @FXML
-    private Label p6;
-    @FXML
-    private Label p7;
-    @FXML
-    private Label p8;
-    @FXML
-    private Label p9;
-
 
 
 
     private String soup = "";
-    private lista listaPalabras;
+
 
 
     public void showThemes(ActionEvent event) throws IOException{
@@ -65,32 +39,27 @@ public class SceneController {
     public void showSoupFruit(ActionEvent event) throws IOException{
         soup = "frutas";
 
-
-
         FXMLLoader loader = new FXMLLoader(MainGame.class.getResource("fruitSoup.fxml"));
         root= loader.load();
-        updateScene();
         stage = (Stage)((Node)event.getSource()).getScene().getWindow();
         scene = new Scene(root);
+        SoupsController controllerTypesSoups = loader.getController();
+        controllerTypesSoups.updateScene(soup);
         stage.setScene(scene);
         stage.show();
-
-
 
     }
     public void showSoupAnimal(ActionEvent event) throws IOException{
         soup = "animales";
 
-
-
         FXMLLoader loader = new FXMLLoader(MainGame.class.getResource("fruitSoup.fxml"));
         root= loader.load();
         stage = (Stage)((Node)event.getSource()).getScene().getWindow();
         scene = new Scene(root);
+        SoupsController controllerTypesSoups = loader.getController();
+        controllerTypesSoups.updateScene(soup);
         stage.setScene(scene);
         stage.show();
-        updateScene();
-
 
     }
     public void showSoupPaises(ActionEvent event) throws IOException{
@@ -99,13 +68,12 @@ public class SceneController {
         root= loader.load();
         stage = (Stage)((Node)event.getSource()).getScene().getWindow();
         scene = new Scene(root);
+        SoupsController controllerTypesSoups = loader.getController();
+        controllerTypesSoups.updateScene(soup);
         stage.setScene(scene);
         stage.show();
-        updateScene();
-
 
     }
-
 
 
 
@@ -129,7 +97,7 @@ public class SceneController {
 
     }
 
-    public void updateScene(){
+    /**public void updateScene(){
         this.listaPalabras = new lista(this.soup);
         typeSoup = new Label();
         typeSoup.setText("hola");
@@ -146,7 +114,7 @@ public class SceneController {
          //this.listaPalabras.getType()
 
     }
-
+*/
 
 
 }
