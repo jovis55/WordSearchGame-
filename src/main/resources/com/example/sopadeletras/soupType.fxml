@@ -8,15 +8,12 @@
 
 <AnchorPane prefHeight="700.0" prefWidth="1300.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.sopadeletras.controller.SceneController">
    <children>
-      <Button contentDisplay="CENTER" layoutX="134.0" layoutY="123.0" mnemonicParsing="false" prefHeight="230.0" prefWidth="230.0" text="Fruits" textAlignment="JUSTIFY">
+      <Button contentDisplay="CENTER" layoutX="132.0" layoutY="235.0" mnemonicParsing="false" onAction="#showSoupFruit" prefHeight="230.0" prefWidth="230.0" text="Fruits" textAlignment="JUSTIFY">
          <graphic>
             <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" />
          </graphic></Button>
-      <Button layoutX="535.0" layoutY="123.0" mnemonicParsing="false" prefHeight="230.0" prefWidth="230.0" text="Fruits" />
-      <Button layoutX="909.0" layoutY="123.0" mnemonicParsing="false" prefHeight="230.0" prefWidth="230.0" text="Fruits" />
-      <Button layoutX="535.0" layoutY="378.0" mnemonicParsing="false" prefHeight="230.0" prefWidth="230.0" text="Fruits" />
-      <Button layoutX="134.0" layoutY="378.0" mnemonicParsing="false" prefHeight="230.0" prefWidth="230.0" text="Fruits" />
-      <Button layoutX="930.0" layoutY="390.0" mnemonicParsing="false" prefHeight="230.0" prefWidth="230.0" text="Fruits" />
+      <Button layoutX="535.0" layoutY="235.0" mnemonicParsing="false" onAction="#showSoupAnimal" prefHeight="230.0" prefWidth="230.0" text="Animals" />
+      <Button layoutX="922.0" layoutY="235.0" mnemonicParsing="false" onAction="#showSoupPaises" prefHeight="230.0" prefWidth="230.0" text="Countries" />
       <TextArea layoutX="324.0" layoutY="14.0" prefHeight="97.0" prefWidth="652.0" text="Choose a theme for your wordsearch">
          <font>
             <Font name="Showcard Gothic" size="29.0" />

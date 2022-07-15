@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="anchorPane1" prefHeight="700.0" prefWidth="1300.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.sopadeletras.controller.SceneController">
+   <children>
+      <Pane layoutX="964.0" layoutY="65.0" prefHeight="602.0" prefWidth="322.0" style="-fx-background-color: #808080;">
+         <children>
+            <Label fx:id="typeSoup" layoutX="112.0" layoutY="14.0" text="Frutas">
+               <font>
+                  <Font name="Gill Sans Ultra Bold Condensed" size="38.0" />
+               </font>
+            </Label>
+            <Label fx:id="p3" layoutX="106.0" layoutY="232.0" prefHeight="30.0" prefWidth="94.0" text="f1">
+               <font>
+                  <Font name="Gabriola" size="38.0" />
+               </font>
+            </Label>
+            <Label fx:id="p1" layoutX="100.0" layoutY="114.0" prefHeight="30.0" prefWidth="94.0" text="f1">
+               <font>
+                  <Font name="Gabriola" size="38.0" />
+               </font>
+            </Label>
+            <Label fx:id="p9" layoutX="114.0" layoutY="516.0" prefHeight="30.0" prefWidth="94.0" text="f1">
+               <font>
+                  <Font name="Gabriola" size="38.0" />
+               </font>
+            </Label>
+            <Label fx:id="p8" layoutX="114.0" layoutY="470.0" prefHeight="30.0" prefWidth="94.0" text="f1">
+               <font>
+                  <Font name="Gabriola" size="38.0" />
+               </font>
+            </Label>
+            <Label fx:id="p7" layoutX="114.0" layoutY="424.0" prefHeight="30.0" prefWidth="94.0" text="f1">
+               <font>
+                  <Font name="Gabriola" size="38.0" />
+               </font>
+            </Label>
+            <Label fx:id="p6" layoutX="112.0" layoutY="378.0" prefHeight="30.0" prefWidth="94.0" text="f1">
+               <font>
+                  <Font name="Gabriola" size="38.0" />
+               </font>
+            </Label>
+            <Label fx:id="p2" layoutX="100.0" layoutY="174.0" prefHeight="30.0" prefWidth="94.0" text="f1">
+               <font>
+                  <Font name="Gabriola" size="38.0" />
+               </font>
+            </Label>
+            <Label fx:id="p5" layoutX="106.0" layoutY="332.0" prefHeight="30.0" prefWidth="94.0" text="f1">
+               <font>
+                  <Font name="Gabriola" size="38.0" />
+               </font>
+            </Label>
+            <Label fx:id="p4" layoutX="106.0" layoutY="278.0" prefHeight="30.0" prefWidth="94.0" text="f1">
+               <font>
+                  <Font name="Gabriola" size="38.0" />
+               </font>
+            </Label>
+            <Label fx:id="p0" layoutX="100.0" layoutY="68.0" prefHeight="30.0" prefWidth="94.0" text="f1">
+               <font>
+                  <Font name="Gabriola" size="38.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
